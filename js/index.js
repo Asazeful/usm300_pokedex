@@ -18,6 +18,6 @@ tinymce.init({
         let nombre = document.querySelector("#nombre-txt").value;
         let tipo = document.querySelector("#tipo-select").value;
         let legendario = document.querySelector("#legendario-si").checked;
-        let descripcion = tinymce.get("#descripcion-txt").getContent();
+        let descripcion = tinymce.get("descripcion-txt").getContent();
         console.log("Hola mundo", nombre, " ", tipo, " ", legendario, "", descripcion);
     })
